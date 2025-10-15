@@ -42,12 +42,15 @@ Open the link shown in your terminal (typically http://localhost:8501) in your b
 
 🖥️ Project Structure
 text
-├── app.py                  # Streamlit UI
-├── main.py                 # FastAPI backend
-├── requirements.txt        # Python dependencies
-├── README.md               # Project documentation
+healthcare-symptom-checker/
+│
+├── app.py             # Streamlit UI (Frontend)
+├── main.py            # FastAPI backend (API Server)
+├── requirements.txt   # Python dependencies
+└── README.md          # Project documentation
 👤 Author
 Karthikeya Tatikonda
+
 
 📄 License
 This project is for educational and demonstration purposes only.
